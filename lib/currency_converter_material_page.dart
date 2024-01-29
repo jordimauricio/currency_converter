@@ -34,7 +34,7 @@ class _CurrencyConverterMaterialPageState
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              '$result MXN',
+              '${result.toStringAsFixed(2)} MXN',
               style: const TextStyle(
                 fontSize: 56,
                 fontWeight: FontWeight.bold,
@@ -73,7 +73,11 @@ class _CurrencyConverterMaterialPageState
                 keyboardType: const TextInputType.numberWithOptions(
                   decimal: true,
                 ),
-                inputFormatters: [FilteringTextInputFormatter.digitsOnly],
+                inputFormatters: [
+                  FilteringTextInputFormatter.allow(
+                    RegExp(r'^\d*\.?\d*$'),
+                  ),
+                ],
               ),
             ),
             Padding(
