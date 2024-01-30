@@ -1,16 +1,12 @@
-# currency_converter
+# Currency Converter
 
-A new Flutter project.
+This is a project to practice and develope skills with the framework Flutter and de programming lenguage Dart.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The currency convertion it is set from USD = 1 to MXN = 17.22
+<br>
+The project is based on the Rivaan Ranawat code:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Udemy course](https://www.udemy.com/course/the-ultimate-dart-flutter-course/)
+- [Flutter & Dart](https://flutter.dev/)
